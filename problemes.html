@@ -1,28 +1,46 @@
 <!DOCTYPE html>
-<html>
+<html lang="ca">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El Problema dels Tres Cossos i Universos Paral·lels</title>
     <style>
         body {
             background-color: white;
             color: black;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        main {
+            margin: 20px;
+        }
+        article {
+            margin-bottom: 30px;
+        }
+        section {
+            margin-bottom: 15px;
+        }
+        h1, h2 {
+            margin-top: 0;
         }
     </style>
 </head>
 <body>
-    <main>
-        <article>
-            <section>
-                <h2>Introducció</h2>
-                <p>El problema dels tres cossos és un problema fonamental en mecànica celeste que consisteix a determinar les trajectòries de tres masses puntuals que interactuen a través de la força de gravetat. Va ser plantejat per primera vegada per Isaac Newton, però no es va poder resoldre de manera analítica.</p>
+    <main role="main">
+        <article role="article">
+            <section aria-labelledby="introduccio-heading">
+                <h2 id="introduccio-heading">Introducció</h2>
+                <p role="">El problema dels tres cossos és un problema fonamental en mecànica celeste que consisteix a determinar les trajectòries de tres masses puntuals que interactuen a través de la força de gravetat. Va ser plantejat per primera vegada per Isaac Newton, però no es va poder resoldre de manera analítica.</p>
                 <p>En general, el problema implica determinar les trajectòries de tres cossos que s'atrauen entre ells mitjançant la gravetat. Tot i que les equacions de moviment per a dos cossos es poden resoldre de manera analítica, les equacions per a tres cossos no tenen una solució tancada en la majoria dels casos.</p>
             </section>
-            <section>
-                <h2>Fenòmens interessants</h2>
+            <section aria-labelledby="fenomens-heading">
+                <h2 id="fenomens-heading">Fenòmens interessants</h2>
                 <p>El problema dels tres cossos pot donar lloc a diversos fenòmens interessants com la captura temporal, col·lisions, o fins i tot expulsions de cossos del sistema.</p>
             </section>
-            <section>
-                <h2>Relacionat</h2>
-                <dl>
+            <section aria-labelledby="relacionat-heading">
+                <h2 id="relacionat-heading">Relacionat</h2>
+                <dl role="list">
                     <dt>Un autor xinès</dt>
                     <dd>Liu Cixin és l'autor de la trilogia de ciència ficció coneguda com "El problema dels tres cossos". És un autor reconegut internacionalment per la seva habilitat per combinar ciència i narrativa.</dd>
                     <dt>Una sèrie</dt>
@@ -30,48 +48,46 @@
                 </dl>
             </section>
         </article>
-        <footer>
+        <footer role="contentinfo">
             <p>Podeu trobar més informació relacionada <a href="webfalsa.3cossos">aquí</a></p>
         </footer>
     <hr>
-        <article>
+        <article role="article">
             <header>
                 <h1>Universos paral·lels i multidimensió</h1>
             </header>
-            <section>
+            <section aria-labelledby="concepte-heading">
+                <h2 id="concepte-heading">Concepte</h2>
                 <p>El concepte d'universos paral·lels i multidimensió és una idea fascinant que ha estat objecte d'investigació en física teòrica i cosmologia. Aquests conceptes es refereixen a l'existència de més d'un univers o realitats alternatives que poden coexistir amb el nostre univers.</p>
                 <p>Algunes teories suggereixen que hi ha múltiples universos separats per membranes quàntiques, on cada univers pot tenir diferents lleis de la física o configuracions de constants fonamentals. Això podria explicar fenòmens desconeguts i oferir nous camins d'investigació.</p>
             </section>
-            <section>
-                <h2>Sèrie de televisió "The OA"</h2>
+            <section aria-labelledby="serie-heading">
+                <h2 id="serie-heading">Sèrie de televisió "The OA"</h2>
                 <p>La sèrie de televisió "The OA" explora aquest tema d'universos paral·lels i multidimensió. La sèrie segueix la història d'una dona anomenada Prairie Johnson, que desapareix durant set anys i torna amb habilitats sobrenaturals i una missió misteriosa.</p>
-                <table>
+                <table aria-describedby="serie-details">
+                    <caption id="serie-details">Detalls de la sèrie</caption>
                     <tr>
-                        <th>Detalls de la sèrie</th>
-                        <th></th>
-                    </tr>
-                    <tr>
-                        <td>Directors:</td>
+                        <th>Directors:</th>
                         <td>Britt Marling i Zal Batmanglij</td>
                     </tr>
                     <tr>
-                        <td>Any d'estrena:</td>
+                        <th>Any d'estrena:</th>
                         <td>2016</td>
                     </tr>
                     <tr>
-                        <td>Actors principals:</td>
+                        <th>Actors principals:</th>
                         <td>Britt Marling, Emory Cohen, Patrick Gibson</td>
                     </tr>
                 </table>
             </section>
-            <section>
-                <h2>Investigació en física quàntica</h2>
+            <section aria-labelledby="investigacio-heading">
+                <h2 id="investigacio-heading">Investigació en física quàntica</h2>
                 <p>Els investigadors en física quàntica han proposat diverses teories sobre la possibilitat d'universos paral·lels. Algunes d'aquestes teories involucren l'existència de múltiples dimensions, que podrien ser més enllà de les tres dimensions espacials que coneixem.</p>
                 <p>Si bé aquest és un camp de recerca actualment actiu, encara no s'han confirmat experimentalment les teories sobre universos paral·lels o multidimensionals.</p>
             </section>
-            <footer>
+            <footer role="contentinfo">
                 <p>Podeu trobar més informació relacionada <a href="webtambefalsa.oa">aquí</a></p>
-                <button>Vols jugar?</button>
+                <button aria-label="Vols jugar?">Vols jugar?</button>
             </footer>
         </article>
     </main>
